@@ -1,3 +1,5 @@
+// VARIÁVEIS e CONSTANTES
+
 console.log("Digite um nome do seu jogador.");
 
 // declara uma variável
@@ -34,3 +36,25 @@ let numeroPessoa = "(81)98765-4321"
 let cpfPessoa = "123.456.789-00"
 let enderecoPessoa = "Rua das Flores, 123, Santa Cruz do Capibaribe - PE"
 let recebePensao = true
+
+// VETORES E MATRIZES
+
+// Para guardar coleções de itens, se usa vetores
+
+let pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+let timePokemon = [
+    ["Bulbasaur", "M", 1],
+    ["Charmander", "M", 5],
+    ["Squirtle", "F", 3]
+]
+
+// pokemon.pop() // remove o último item do vetor
+// pokemon.push("Pikachu") // adiciona um item no final do vetor
+// pokemon.shift() // remove o primeiro item do vetor
+
+console.log("Sua lista atual de pokémons: " + pokemon)
+
+// MATRIZES: Vários tipos de dados em um mesmo vetor, ou seja, um vetor dentro de outro vetor
+//[][], onde o primeiro colchete é a linha e o segundo colchete é a coluna
+
+console.log(" O pokemon: " + timePokemon[1][0] + " é do sexo " + timePokemon[1][1] + " e está no level " + timePokemon[1][2])
