@@ -58,3 +58,37 @@ console.log("Sua lista atual de pokémons: " + pokemon)
 //[][], onde o primeiro colchete é a linha e o segundo colchete é a coluna
 
 console.log(" O pokemon: " + timePokemon[1][0] + " é do sexo " + timePokemon[1][1] + " e está no level " + timePokemon[1][2])
+
+// OPERADORES E EXPRESSÕES
+
+// Operadores de comparação: ==, !=, >, <, >=, <=
+// Operadores lógicos: && (AND), || (OR), ! (NOT)
+// Operadores aritméticos: +, -, *, /, %
+
+let idade = 18
+
+console.log(idade)
+
+idade = 30 + 6
+
+console.log(idade)
+
+let primerioNumero = 1023
+let segundoNumero = 23
+
+console.log(primerioNumero - segundoNumero)
+
+// Incremento e decremento
+
+// ++ incremento
+let contador = 1
+contador++ // contador = contador + 1
+
+// -- decremento
+contador-- // contador = contador - 1
+
+// EXPRESSÕES
+
+let resultado = (10 + 5) * 2 // expressão aritmética
+
+console.log(resultado)
